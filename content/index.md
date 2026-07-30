@@ -1,9 +1,5 @@
 ---
-title: Welcome to Quartz
+title: Arcanum Academy
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
-
-Chertia Test
- 2
+This is a blank website for Arcanum Academy.
