@@ -110,10 +110,14 @@ plugins:
     order: 92
   - source: "@quartz-community/quartz-fonts"
     enabled: true
+    options:
+      body: '"Libre Baskerville", serif'
+      header: '"Libre Baskerville", serif'
+      code: '"IBM Plex Mono", monospace'
   - source: "@quartz-themes/core"
     enabled: true
     options:
-      theme: typewriter
+      theme: "typewriter"
       mode: both
   - source: "@quartz-community/remove-draft"
     enabled: true
@@ -273,12 +277,6 @@ plugins:
       darkMode: auto
       exportPadding: 20
     order: 50
-  - source: github:quartz-community/fonts
-    enabled: true
-    options:
-      useThemeFonts: true
-      fontOrigin: googleFonts
-    order: 60
 layout:
   groups:
     toolbar:
