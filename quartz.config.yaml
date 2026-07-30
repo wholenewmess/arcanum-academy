@@ -111,9 +111,11 @@ plugins:
   - source: "@quartz-community/quartz-fonts"
     enabled: true
     options:
-      body: '"Libre Baskerville", serif'
-      header: '"Libre Baskerville", serif'
-      code: '"IBM Plex Mono", monospace'
+      fontOrigin: googleFonts
+      body: Libre Baskerville
+      header: Libre Baskerville
+      code: JetBrains Mono
+
   - source: "@quartz-themes/core"
     enabled: true
     options:
