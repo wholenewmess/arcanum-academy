@@ -112,9 +112,11 @@ plugins:
     enabled: true
     options:
       fontOrigin: googleFonts
+      title: Libre Baskerville
       body: Libre Baskerville
       header: Libre Baskerville
       code: JetBrains Mono
+      interface: Libre Baskerville
 
   - source: "@quartz-themes/core"
     enabled: true
